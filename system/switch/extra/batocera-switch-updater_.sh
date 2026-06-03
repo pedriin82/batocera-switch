@@ -3,6 +3,7 @@
 # v3.3                SWITCH EMULATORS UPDATER FOR BATOCERA                    #
 #                   ----------------------------------------                   #
 #                     > github.com/ordovice/batocera-switch                    #
+#              > github.com/pedriin82/batocera-switch-ordovice                 #
 #                        > https://discord.gg/SWBvBkmn9P                       #     
 ################################################################################
 #  ---------------
@@ -332,8 +333,8 @@ fi
 # -------------------------------------------------------------------
 # get tar dependencies 
 # \\ 
-link_tar=https://github.com/ordovice/batocera-switch/raw/main/system/switch/extra/batocera-switch-tar
-link_libselinux=https://github.com/ordovice/batocera-switch/raw/main/system/switch/extra/batocera-switch-libselinux.so.1
+link_tar=https://github.com/pedriin82/batocera-switch-ordovice/raw/main/system/switch/extra/batocera-switch-tar
+link_libselinux=https://github.com/pedriin82/batocera-switch-ordovice/raw/main/system/switch/extra/batocera-switch-libselinux.so.1
 if [[ -e "$extra/batocera-switch-tar" ]]; then 
 chmod a+x "$extra/batocera-switch-tar"
 else 
@@ -1214,8 +1215,8 @@ else
 fi
 # --------------------------------------------------------
 # \\ get dependencies for handling ryujinxavalonia
-link_tar=https://github.com/ordovice/batocera-switch/raw/main/system/switch/extra/batocera-switch-tar
-link_libselinux=https://github.com/ordovice/batocera-switch/raw/main/system/switch/extra/batocera-switch-libselinux.so.1
+link_tar=https://github.com/pedriin82/batocera-switch-ordovice/raw/main/system/switch/extra/batocera-switch-tar
+link_libselinux=https://github.com/pedriin82/batocera-switch-ordovice/raw/main/system/switch/extra/batocera-switch-libselinux.so.1
 if [[ -e "$extra/batocera-switch-tar" ]]; then 
    chmod a+x "$extra/batocera-switch-tar"
 else 
@@ -1362,8 +1363,8 @@ version=$(echo "$version" | sed 's,1\.1\.,,g')
 echo -e "${T}██ $C   ${F}RYUJINX-LDN   ${T}❯❯   ${T}$version"
 # --------------------------------------------------------
 # \\ get dependencies for handling ryujinxavalonia
-link_tar=https://github.com/ordovice/batocera-switch/raw/main/system/switch/extra/batocera-switch-tar
-link_libselinux=https://github.com/ordovice/batocera-switch/raw/main/system/switch/extra/batocera-switch-libselinux.so.1
+link_tar=https://github.com/pedriin82/batocera-switch-ordovice/raw/main/system/switch/extra/batocera-switch-tar
+link_libselinux=https://github.com/pedriin82/batocera-switch-ordovice/raw/main/system/switch/extra/batocera-switch-libselinux.so.1
 if [[ -e "$extra/batocera-switch-tar" ]]; then 
    chmod a+x "$extra/batocera-switch-tar"
 else 
@@ -1519,8 +1520,8 @@ version=$(echo "$version" | sed 's,1\.1\.,,g')
 echo -e "${T}██ $C   ${F}RYUJINX-AVALONIA   ${T}❯❯   ${T}$version"
 # --------------------------------------------------------
 # \\ get dependencies for handling ryujinxavalonia
-link_tar=https://github.com/ordovice/batocera-switch/raw/main/system/switch/extra/batocera-switch-tar
-link_libselinux=https://github.com/ordovice/batocera-switch/raw/main/system/switch/extra/batocera-switch-libselinux.so.1
+link_tar=https://github.com/pedriin82/batocera-switch-ordovice/raw/main/system/switch/extra/batocera-switch-tar
+link_libselinux=https://github.com/pedriin82/batocera-switch-ordovice/raw/main/system/switch/extra/batocera-switch-libselinux.so.1
 if [[ -e "$extra/batocera-switch-tar" ]]; then 
    chmod a+x "$extra/batocera-switch-tar"
 else 
