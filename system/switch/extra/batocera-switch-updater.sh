@@ -755,7 +755,7 @@ yuzuE="/userdata/system/switch/appimages/yuzuea4176.AppImage"
 if [ -f "$yuzuE" ]; then
     cp /userdata/system/switch/appimages/yuzuea4176.AppImage /userdata/system/switch/yuzuea4176.AppImage 2>/dev/null;
 else 
-    wget -q --show-progress --tries=10 --no-check-certificate --no-cache --no-cookies -O "/userdata/system/switch/appimages/yuzuea4176.AppImage" "https://foclabroc.freeboxos.fr:55973/share/6_FB-NuZriqYuHKt/yuzuea4176.AppImage"
+    wget -q --show-progress --tries=10 --no-check-certificate --no-cache --no-cookies -O "/userdata/system/switch/appimages/yuzuea4176.AppImage" "https://ilovearcade.es/ficheros/yuzuea4176.AppImage"
     cp /userdata/system/switch/appimages/yuzuea4176.AppImage /userdata/system/switch/yuzuea4176.AppImage 2>/dev/null; fi
 link_yuzuEA="/userdata/system/switch/yuzuea4176.AppImage"
 version="4176"
@@ -911,7 +911,7 @@ if [ -f "$link_ryujinx" ]; then
 	            cp /userdata/system/switch/appimages/ryujinx-canary-1.3.138-linux_x64.tar.gz /userdata/system/switch/ryujinx-${version}-linux_x64.tar.gz 2>/dev/null;
 			    echo -e "${T}RYUJINX   ${RED}FAIL TO DOWNLOAD LAST RYUBING USE 1.3.138 BACKUP INSTEAD   ${T}/1.3.138/ ${GREEN}SUCCESS";
 		      else
-	            wget -q --show-progress --tries=10 --no-check-certificate --no-cache --no-cookies -O "/userdata/system/switch/appimages/ryujinx-canary-1.3.138-linux_x64.tar.gz" "https://foclabroc.freeboxos.fr:55973/share/0A4ENRF8IO0_9nzt/ryujinx-canary-1.3.138-linux_x64.tar.gz"
+	            wget -q --show-progress --tries=10 --no-check-certificate --no-cache --no-cookies -O "/userdata/system/switch/appimages/ryujinx-canary-1.3.138-linux_x64.tar.gz" "https://ilovearcade.es/ficheros/ryujinx-canary-1.3.138-linux_x64.tar.gz"
                 cp /userdata/system/switch/appimages/ryujinx-canary-1.3.138-linux_x64.tar.gz /userdata/system/switch/ryujinx-${version}-linux_x64.tar.gz 2>/dev/null;
 	            echo -e "${T}RYUJINX   ${RED}FAIL TO DOWNLOAD LAST RYUBING USE 1.3.138 INSTEAD   ${T}/1.3.138/ ${GREEN}SUCCESS";
 			  fi
@@ -1076,7 +1076,7 @@ ryuA="/userdata/system/switch/appimages/ryujinxava1403.tar.gz"
 if [ -f "$ryuA" ]; then
     cp /userdata/system/switch/appimages/ryujinxava1403.tar.gz /userdata/system/switch/ryujinxava1403.tar.gz 2>/dev/null;
 else 
-    wget -q --show-progress --tries=10 --no-check-certificate --no-cache --no-cookies -O "/userdata/system/switch/appimages/ryujinxava1403.tar.gz" "https://foclabroc.freeboxos.fr:55973/share/aQz2Hnkinjx4x69L/ryujinxava1403.tar.gz"
+    wget -q --show-progress --tries=10 --no-check-certificate --no-cache --no-cookies -O "/userdata/system/switch/appimages/ryujinxava1403.tar.gz" "https://ilovearcade.es/ficheros/ryujinxava1403.tar.gz"
     cp /userdata/system/switch/appimages/ryujinxava1403.tar.gz /userdata/system/switch/ryujinxava1403.tar.gz 2>/dev/null; fi
 link_ryujinxavalonia="/userdata/system/switch/ryujinxava1403.tar.gz"
 version="1403"
@@ -1650,7 +1650,7 @@ if [ -f "$link_citron" ]; then
 	            cp /userdata/system/switch/appimages/citron0.12.25.AppImage /userdata/system/switch/citron.AppImage 2>/dev/null;
 			    echo -e "${T}CITRON   ${RED}FAIL TO DOWNLOAD LAST CITRON USE 0.12.25 BACKUP INSTEAD   ${T}/0.12.25/ ${GREEN}SUCCESS";
 		      else
-	            wget -q --show-progress --tries=10 --no-check-certificate --no-cache --no-cookies -O "/userdata/system/switch/appimages/citron0.12.25.AppImage" "https://foclabroc.freeboxos.fr:55973/share/rr2EtI2hVlWoy90p/citron0.12.25.AppImage"
+	            wget -q --show-progress --tries=10 --no-check-certificate --no-cache --no-cookies -O "/userdata/system/switch/appimages/citron0.12.25.AppImage" "https://ilovearcade.es/ficheros/citron0.12.25.AppImage"
                 cp /userdata/system/switch/appimages/citron0.10.0.AppImage /userdata/system/switch/citron.AppImage 2>/dev/null;
 	            echo -e "${T}CITRON   ${RED}FAIL TO DOWNLOAD LAST CITRON USE 0.12.25 INSTEAD   ${T}/0.12.25/ ${GREEN}SUCCESS";
 			  fi
@@ -1712,7 +1712,7 @@ suda="/userdata/system/switch/appimages/sudachi1.0.15.AppImage"
 if [ -f "$suda" ]; then
     cp /userdata/system/switch/appimages/sudachi1.0.15.AppImage /userdata/system/switch/sudachi.AppImage 2>/dev/null;
 else 
-    wget -q --show-progress --tries=10 --no-check-certificate --no-cache --no-cookies -O "/userdata/system/switch/appimages/sudachi1.0.15.AppImage" "https://foclabroc.freeboxos.fr:55973/share/HYaogouYa05jIPgq/sudachi1.0.15.AppImage"
+    wget -q --show-progress --tries=10 --no-check-certificate --no-cache --no-cookies -O "/userdata/system/switch/appimages/sudachi1.0.15.AppImage" "https://ilovearcade.es/ficheros/sudachi1.0.15.AppImage"
     cp /userdata/system/switch/appimages/sudachi1.0.15.AppImage /userdata/system/switch/sudachi.AppImage 2>/dev/null; fi
         if [ -f "$suda" ] && [ $(stat -c%s "$suda") -gt 2048 ]; then
 		   echo -e "${T}SUDACHI   ${T}❯❯   ${T}/V1.0.15/ ${GREEN}SUCCESS";
